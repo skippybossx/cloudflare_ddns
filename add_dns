@@ -1,0 +1,5 @@
+curl -X PUT "https://api.cloudflare.com/client/v4/zones/zone_api_id_var/dns_records/$dns_record_id" \
+     -H "X-Auth-Email: domain_owner_mail_var" \
+     -H "X-Auth-Key: domain_api_key_var" \
+     -H "Content-Type: application/json" \
+     --data '{"type":"A","name":"dns_record_name_var","content":"IP_VARIABLE","ttl":3600,"proxied":false}'

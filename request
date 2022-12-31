@@ -1,0 +1,6 @@
+array=$(curl -X GET "https://api.cloudflare.com/client/v4/zones/zone_api_id_var/dns_records?type=A&name=dns_record_name_var" \
+     -H "X-Auth-Email: domain_owner_mail_var" \
+     -H "X-Auth-Key: domain_api_key_var" \
+     -H "Content-Type: application/json")
+echo $array | grep -o '"content":"[^"]*' | grep -o '[0-9,.]*'> ./array
+echo $array | grep -o '"id":"[^"]*' | grep -o '[a-z,0-9,.]*2'> ./record_id
