@@ -5,6 +5,7 @@ Edit config and fill with your login, API token etc.
 
 Add script to run every 5 minutes or so to crontab using `crontab -e` and adding line
 > */5 * * * * /bin/bash ~/ddns.sh >/dev/null 2>&1
+# How to create API token in cloudflare:
 <br>
 
 ![alt pic1](https://forum.aapanel.com/assets/files/2021-02-26/1614321795-190183-tmp.png)
