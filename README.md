@@ -1,9 +1,11 @@
 # cloudflare_ddns
 Bash script to autoupgrade dns to external ip in cloudflare
 
+Clone project to your destination
+
 Edit config and fill with your login, API token etc.
 
-Add script to run every 5 minutes or so to crontab using `crontab -e` and adding line
+Add script to run every 5 minutes or so to crontab using `crontab -e` and adding line (change destination to ddns.sh file location)
 > */5 * * * * /bin/bash ~/ddns.sh >/dev/null 2>&1
 # How to create API token in cloudflare:
 <br>
