@@ -9,9 +9,3 @@ zone_api_id=""
 
 #Cloudflare DNS record name you want tu update
 dns_record_name=""
-
-
-# How to create cloudflare API token
-# 1. https://forum.aapanel.com/assets/files/2021-02-26/1614321795-190183-tmp.png
-# 2. https://forum.aapanel.com/assets/files/2021-02-26/1614321840-241933-tmp1.png
-# 3. https://forum.aapanel.com/assets/files/2021-02-26/1614321849-690607-tmp2.png
