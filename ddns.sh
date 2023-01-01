@@ -1,4 +1,4 @@
-#!/bin/ash
+#!/bin/bash
 source ./config
 
 cp ./request ./request_temp
